@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Isabela Sarmiento</h1>
+        <img src="IMG_1189.jpeg" alt="Una imagen de su servidora, Isabela Sarmiento" 
+        width="200">
+    </header>
+    <nav>
+        <ul>
+          <li><a href="#bienvenida">Bienvenida</a></li>
+          <li><a href="#biografia">Biografía</a></li>
+          <li><a href="#academia">Academia</a></li>
+          <li><a href="#sitios">Sitios de Interes</a></li>
+          <li><a href="#escribeme">Escríbeme</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="bienvenida">
+            <h2>
+                Bienvenida
+            </h2>
+            <p>
+                Hola, mi nombre es Isabela Sarmiento y aquí encontrar un pedacito de mi. Encontrarás información técnica, como datos sobre mi nacimiento o mi junventod, así como algunos de mis logros y preferencias personales. Eso sí, recueda que esto es solo un <em>pequeño</em> pedacito así que si quieres saber más, solo dilo. Te deseo lo mejor en todo.
+            </p>
+        </section>
+        <section id="biografia">
+            <h2>
+                Biografía
+            </h2>
+            <table style="width: 80%">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Evento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1999</td>
+                        <td>Nacimiento</td>
+                    </tr>
+                    <tr>
+                        <td>2001</td>
+                        <td>Nacimiento de mi hermana</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>Primer año de jardín</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>Mudanza USA</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>Regreso USA</td>
+                    </tr>
+
+                    <tr>
+                        <td>2006</td>
+                        <td>Ingreso Colegio Italiano Leonardo da Vinci</td>
+                    </tr>
+                    <tr>
+                        <td>20017</td>
+                        <td>Graduación Colegio Italiano Leonardo da Vinci</td>
+                    </tr>
+                    <tr>
+                        <td>20017</td>
+                        <td>Ingreso Universidad de los Andes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="academia">
+                <h2>
+                    Academia
+                </h2>
+                Desde un nivel academémico, es importante mencionar que:
+                <ul>
+                    <li>Se hablar español, inglés, italiano y un poquitito de Japonés</li>
+                    <li>Me gradué del Colegio Italiano da Vinci</li>
+                    <li>Estudio Ingeniería de Sistemas e Ingeniería Electrónica</li>
+                </ul>
+        </section>
+        <section id="sitios">
+                <h2>
+                    Sitios de Interes
+                </h2>
+                <p>Ahora a continucación te mostraré algunos videos, enlaces y demás cosas que me parecen interesantes.</p>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8gtSNjnjPOk"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>En primer lugar te comparto un video de un canal que me gusta mucho, tiene reflexiones interesantes
+                    sobre la vida, sobre los sentimientos y la relaciones interpersonales. 
+                </p>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g6eB8IeX_cs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Este año, en mi familia adoptamos un nuevo perrito, así que recientemente he estado viendo muchos videos y revisando varios artículos y libros sobre todo el proceso de tener un perrito. Este en particular
+                    es un canal que me ha servido bastante. Aquí te dejo algunas fotos de mi perrita, se llama Cayena.
+                </p>
+                <img src="IMG_5078.png" alt="Cayena, mi perrita, mirandote con sus ojos azules" 
+                width="200">
+                <img src="IMG_5042.jpg" alt="Cayena, mi perrita, acostadita descansado" 
+                width="200">
+                <br>
+                <p>Volviendo a los videos</p>
+
+                <iframe src="https://mashable.com/videos/blueprint:qGo5wg97nW/embed/?player=offsite" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <p> Este es otro video que me parece interesante de una página de noticias que comparte un poco de todo,
+                    noticias de tecnología, cultura, ciencia entre otros.
+                </p>
+                <p> Ahora algunos links que me parecieron interesantes:</p>
+                <ul>
+                    <li>
+                        <a href="http://www.staggeringbeauty.com">Una lombrís curiosa</a>: para distraerse un rato
+                    </li>
+                    <li>
+                        <a href="https://www.cleverbot.com">Cleverbot</a>: un chatbot excelente.
+                    </li>
+                    <li>
+                        <a href="https://sicuaplus.uniandes.edu.co/webapps/login/">Sicua</a>: por si necesitas el link al LMS antiguo de la universidad. 
+                    </li>
+                </ul>
+        </section>
+        <section id="escribeme">
+                <h2>
+                    Escríbeme
+                </h2>
+                Si quieres saber algo más, llena este formulario :).
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                     <li>
+                       <label for="name">Tu nombre:</label>
+                       <input type="text" id="name" name="user_name">
+                     </li>
+                     <li>
+                       <label for="mail">Tu correo:</label>
+                       <input type="email" id="mail" name="user_email">
+                     </li>
+                     <li>
+                       <label for="msg">Tu mensaje:</label>
+                       <textarea id="msg" name="user_message"></textarea>
+                     </li>
+                     <li class="button">
+                        <button type="submit">Enviar</button>
+                      </li>
+                    </ul>
+                   </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <p> Más información:</p>
+        <ul>
+            <li>
+                CEL: +57 (321)222-5557
+            </li>
+            <li>
+                TEL: +57 758-6189
+            </li>
+        </ul>
+        <p>©Copyright 2021 por Isabela Sarmiento. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+<!-- generado con html:5 -->
